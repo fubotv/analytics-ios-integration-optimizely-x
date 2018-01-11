@@ -9,10 +9,10 @@
 
 #import <Foundation/Foundation.h>
 #import <Analytics/SEGIntegrationFactory.h>
-#if TARGET_OS_IOS 
+#if TARGET_OS_IOS
   #import <OptimizelySDKiOS/OptimizelySDKiOS.h>
 #else
-  #import <OptimizelySDKTVOS/OptimizelySDKTVOS.h>
+  @import OptimizelySDKTVOS;
 #endif
 
 @interface SEGOptimizelyXIntegrationFactory : NSObject <SEGIntegrationFactory>

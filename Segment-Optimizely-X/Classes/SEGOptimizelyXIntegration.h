@@ -11,7 +11,7 @@
 #if TARGET_OS_IOS
   #import <OptimizelySDKiOS/OptimizelySDKiOS.h>
 #else
-  #import <OptimizelySDKTVOS/OptimizelySDKTVOS.h>
+  @import OptimizelySDKTVOS;
 #endif
 #import <Analytics/SEGAnalytics.h>
 

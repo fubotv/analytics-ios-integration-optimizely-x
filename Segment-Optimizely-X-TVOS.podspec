@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Segment-Optimizely-X-TVOS'
-  s.version          = '1.0.3-beta'
+  s.version          = '1.0.0'
   s.summary          = "Optimizely X Integration for Segment's analytics-ios library."
 
   s.description      = <<-DESC
@@ -20,7 +20,8 @@ This is the Optimizely X integration for the iOS library.
 
   s.source_files = 'Segment-Optimizely-X/Classes/**/*'
   s.dependency 'Analytics', '~> 3.0'
+
   s.tvos.dependency 'OptimizelySDKTVOS'
   s.ios.dependency 'OptimizelySDKiOS'
-   
+
 end
