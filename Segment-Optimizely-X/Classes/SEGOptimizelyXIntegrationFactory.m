@@ -8,8 +8,6 @@
 
 #import "SEGOptimizelyXIntegrationFactory.h"
 #import "SEGOptimizelyXIntegration.h"
-#import <OptimizelySDKiOS/OptimizelySDKiOS.h>
-
 
 @implementation SEGOptimizelyXIntegrationFactory
 
